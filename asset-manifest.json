@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.5cf70eca.css",
+    "main.js": "/myportfolio/static/js/main.f41c5208.js",
+    "static/media/aboutmenew.png": "/myportfolio/static/media/aboutmenew.f50f08feaed8f014d226.png",
+    "static/media/myportfolio.png": "/myportfolio/static/media/myportfolio.d94825fb32097d16011b.png",
+    "static/media/Cosmic Ways.png": "/myportfolio/static/media/Cosmic Ways.bead1983d24d78d3694b.png",
+    "static/media/drivesmart.jpg": "/myportfolio/static/media/drivesmart.0265891af3fb2554ccb1.jpg",
+    "static/media/myprofile.png": "/myportfolio/static/media/myprofile.3a958465471cb612f633.png",
+    "static/media/project1.jpg": "/myportfolio/static/media/project1.d8eb435668ec1e26c5f2.jpg",
+    "static/media/cv.pdf": "/myportfolio/static/media/cv.31feb6d04225c4b220fe.pdf",
+    "static/media/JobBoard.png": "/myportfolio/static/media/JobBoard.3a82f26129f6de123bf5.png",
+    "static/media/leoscroll.png": "/myportfolio/static/media/leoscroll.580dab365068058c9db3.png",
+    "static/media/new.jpg": "/myportfolio/static/media/new.8f0639db3adfb0426640.jpg",
+    "index.html": "/myportfolio/index.html",
+    "main.5cf70eca.css.map": "/myportfolio/static/css/main.5cf70eca.css.map",
+    "main.f41c5208.js.map": "/myportfolio/static/js/main.f41c5208.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cf70eca.css",
+    "static/js/main.f41c5208.js"
+  ]
+}
