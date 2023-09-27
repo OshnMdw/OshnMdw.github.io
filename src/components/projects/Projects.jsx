@@ -6,42 +6,42 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title:'Project Title',
+    title:'React Portfolio',
     github: 'https://github.com',
     details: ''
   },
   {
     id: 2,
     image: IMG1,
-    title:'Project Title',
+    title:'Job Finder',
     github: 'https://github.com',
     details: ''
   },
   {
     id: 3,
     image: IMG1,
-    title:'Project Title',
+    title:'Drive Smart',
     github: 'https://github.com',
     details: ''
   },
   {
     id: 4,
     image: IMG1,
-    title:'Project Title',
+    title:'Talk Together',
     github: 'https://github.com',
     details: ''
   },
   {
     id: 5,
     image: IMG1,
-    title:'Project Title',
+    title:'Cosmic Ways',
     github: 'https://github.com',
     details: ''
   },
   {
     id: 6,
     image: IMG1,
-    title:'Project Title',
+    title:'Leo Scroll',
     github: 'https://github.com',
     details: ''
   },
