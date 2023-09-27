@@ -13,12 +13,13 @@ const Header = () => {
         <h3 className='text-light'>Fullstack Developer</h3>
         <CTA/>
         <HeaderSocial/>
+        <a href="#contact" className='scroll_down'>Scroll Down</a>
 
         <div className='me'>
-          <img src={ME} alt=""/>
+          <img className= 'me__image' src={ME} alt=""/>
         </div>
 
-        <a href="#contact" className='scroll_down'>Scroll Down</a>
+        
 
       </div>
     </header>
