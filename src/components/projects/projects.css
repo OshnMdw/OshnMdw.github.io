@@ -31,6 +31,11 @@
     margin-bottom: 1rem;
 }
 
+.project__item-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* ============== Media Queries (Medium devices) ============*/
 
 @media screen and (max-width :1024px){
