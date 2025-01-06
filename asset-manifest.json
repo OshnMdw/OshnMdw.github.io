@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.bbf0968e.css",
-    "main.js": "/static/js/main.a1dd8e11.js",
+    "main.js": "/static/js/main.ab4dbe00.js",
     "static/media/aboutmenew.png": "/static/media/aboutmenew.f50f08feaed8f014d226.png",
     "static/media/myportfolio.png": "/static/media/myportfolio.d94825fb32097d16011b.png",
     "static/media/Cosmic Ways.png": "/static/media/Cosmic Ways.bead1983d24d78d3694b.png",
+    "static/media/myprofile.png": "/static/media/myprofile.34e9fd0fce933dde14e6.png",
     "static/media/drivesmart.jpg": "/static/media/drivesmart.0265891af3fb2554ccb1.jpg",
-    "static/media/myprofile.png": "/static/media/myprofile.3a958465471cb612f633.png",
     "static/media/project1.jpg": "/static/media/project1.d8eb435668ec1e26c5f2.jpg",
     "static/media/JobBoard.png": "/static/media/JobBoard.3a82f26129f6de123bf5.png",
-    "static/media/cv.pdf": "/static/media/cv.3793440ecf030fefbe48.pdf",
+    "static/media/cv.pdf": "/static/media/cv.c5905b7b7d2287feeb93.pdf",
     "static/media/leoscroll.png": "/static/media/leoscroll.580dab365068058c9db3.png",
     "static/media/new.jpg": "/static/media/new.8f0639db3adfb0426640.jpg",
     "index.html": "/index.html",
     "main.bbf0968e.css.map": "/static/css/main.bbf0968e.css.map",
-    "main.a1dd8e11.js.map": "/static/js/main.a1dd8e11.js.map"
+    "main.ab4dbe00.js.map": "/static/js/main.ab4dbe00.js.map"
   },
   "entrypoints": [
     "static/css/main.bbf0968e.css",
-    "static/js/main.a1dd8e11.js"
+    "static/js/main.ab4dbe00.js"
   ]
 }
