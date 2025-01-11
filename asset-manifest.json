@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bbf0968e.css",
-    "main.js": "/static/js/main.ab4dbe00.js",
+    "main.js": "/static/js/main.ceed63e5.js",
     "static/media/aboutmenew.png": "/static/media/aboutmenew.f50f08feaed8f014d226.png",
     "static/media/myportfolio.png": "/static/media/myportfolio.d94825fb32097d16011b.png",
     "static/media/Cosmic Ways.png": "/static/media/Cosmic Ways.bead1983d24d78d3694b.png",
@@ -9,15 +9,15 @@
     "static/media/drivesmart.jpg": "/static/media/drivesmart.0265891af3fb2554ccb1.jpg",
     "static/media/project1.jpg": "/static/media/project1.d8eb435668ec1e26c5f2.jpg",
     "static/media/JobBoard.png": "/static/media/JobBoard.3a82f26129f6de123bf5.png",
-    "static/media/cv.pdf": "/static/media/cv.c5905b7b7d2287feeb93.pdf",
+    "static/media/cv.pdf": "/static/media/cv.5abcf9c87ac6d27e055a.pdf",
     "static/media/leoscroll.png": "/static/media/leoscroll.580dab365068058c9db3.png",
     "static/media/new.jpg": "/static/media/new.8f0639db3adfb0426640.jpg",
     "index.html": "/index.html",
     "main.bbf0968e.css.map": "/static/css/main.bbf0968e.css.map",
-    "main.ab4dbe00.js.map": "/static/js/main.ab4dbe00.js.map"
+    "main.ceed63e5.js.map": "/static/js/main.ceed63e5.js.map"
   },
   "entrypoints": [
     "static/css/main.bbf0968e.css",
-    "static/js/main.ab4dbe00.js"
+    "static/js/main.ceed63e5.js"
   ]
 }
