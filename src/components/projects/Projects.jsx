@@ -61,7 +61,7 @@ const data = [
     id: 7,
     image: IMG4,
     title: "VoteZone Frontend",
-    github: "https://github.com/UoMLeos-WEB-PR/leoscroll",
+    github: "https://github.com/OshnMdw/VoteZone_frontend",
     details:
       "VoteZone is a web-based online voting system that helps to manage elections easily and securely... #Technologies:ReactJS, TypeScript, Material UI, HTML, CSS...",
   },
