@@ -1,29 +1,43 @@
-import React from 'react'
-import './header.css'
-import CTA from './CTA'
-import ME from '../../assets/myprofile.png'
-import HeaderSocial from './HeaderSocials'
+import React from "react";
+import "./header.css";
+import CTA from "./CTA";
+import ME from "../../assets/myprofile.png";
+import HeaderSocial from "./HeaderSocials";
+import { Box, Typography } from "@mui/material";
+import { ReactTyped } from "react-typed";
 
 const Header = () => {
   return (
     <header>
-      <div className="container header_container">
-        <h3>Hello I'm</h3>
-        <h1>Oshan Madawa</h1>
-        <h3 className='text-light'>Fullstack Developer</h3>
-        <CTA/>
-        <HeaderSocial/>
-        <a href="#contact" className='scroll_down'>Scroll Down</a>
+      <Box className="container header_container">
+        <Typography variant="h4">Hello I'm</Typography>
+        <Typography
+          variant="h1"
+          color="#90caf9"
+          fontFamily={"Apple Color Emoji"}
+        >
+          Oshan Madawa
+        </Typography>
+        <Typography variant="h5" className="text-light">
+          <ReactTyped
+            strings={["Full Stack Developer", "Mobile Developer"]}
+            typeSpeed={50}
+            loop
+            backSpeed={20}
+          />
+        </Typography>
+        <CTA />
+        <HeaderSocial />
+        <a href="#contact" className="scroll_down">
+          Scroll Down
+        </a>
 
-        <div className='me'>
-          <img className= 'me__image' src={ME} alt=""/>
+        <div className="me">
+          <img src={ME} alt="" />
         </div>
-
-        
-
-      </div>
+      </Box>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
