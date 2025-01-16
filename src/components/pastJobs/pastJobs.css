@@ -1,0 +1,88 @@
+.pastJobs__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    width: 50%;
+    
+}
+
+.pastJobs__container > div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+}
+
+.pastJobs__container > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.pastJobs__container > div h3{
+    /* text-align: center; */
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.pastJobs__card {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+}
+
+.pastJobs__content{
+    display: flex;
+    gap: 1rem;
+
+    /* grid-template-columns: 1fr 1fr; */
+    /* row-gap: 2rem; */
+    /* justify-items: center; */
+}
+
+
+.pastJobs__card h3 {
+    margin-bottom: 0;
+}
+
+.pastJobs__details {
+    display: flex;
+    gap: 1rem;
+}
+
+.pastJobs__details-icon{
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
+/* ============== Media Queries (Medium devices) ============*/
+
+@media screen and (max-width :1024px){
+    .pastJobs__container{
+        grid-template-columns: 1fr;
+    }
+
+    .pastJobs__container > div{
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .pastJobs__content{
+        padding: 1rem;
+    }
+}
+
+/* ============== Media Queries (Small devices) ============*/
+
+@media screen and (max-width :600px){
+    .pastJobs__container{
+        gap: 1rem;
+        width: 80%;
+    }
+
+    .pastJobs__container > div{
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}
