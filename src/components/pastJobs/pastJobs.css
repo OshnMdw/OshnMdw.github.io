@@ -1,9 +1,21 @@
 .pastJobs__container {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 2rem;
+    position: relative;
     width: 50%;
-    
+}
+
+.pastJobs__container::before {
+    content: "";
+    position: absolute;
+    left: 22%; /* Adjust as needed to align with your cards */
+    top: 0;
+    bottom: 0;
+    width: 4px; /* Thickness of the timeline */
+    background: var(--color-primary);
+    z-index: 0; /* Make sure it stays behind the cards */
 }
 
 .pastJobs__container > div {
@@ -26,9 +38,29 @@
 }
 
 .pastJobs__card {
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    position: relative;
+    width: 50%;
+}
+
+.pastJobs__card::before {
+    content: "";
+    position: absolute;
+    left: 10px; /* Aligns with the timeline */
+    top: calc(50% - 8px); /* Center the marker */
+    width: 16px;
+    height: 16px;
+    background: var(--color-primary);
+    border-radius: 50%; /* Makes the marker circular */
+    z-index: 1; /* Ensures it stays above the timeline */
 }
 
 .pastJobs__content{
@@ -75,14 +107,22 @@
 
 /* ============== Media Queries (Small devices) ============*/
 
-@media screen and (max-width :600px){
+@media screen and (max-width :1030px){
     .pastJobs__container{
         gap: 1rem;
         width: 80%;
     }
 
     .pastJobs__container > div{
-        width: 100%;
+        width: 80%;
         padding: 2rem 1rem;
+    }
+
+    .pastJobs__container::before {
+        display: none; /* Hides the vertical timeline */
+    }
+
+    .pastJobs__card::before {
+        display: none; /* Hides the circular markers */
     }
 }
