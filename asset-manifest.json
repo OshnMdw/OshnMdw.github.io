@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.753afeac.css",
-    "main.js": "/static/js/main.2c3eb191.js",
+    "main.js": "/static/js/main.f5682d23.js",
     "static/media/aboutmenew.png": "/static/media/aboutmenew.f50f08feaed8f014d226.png",
     "static/media/myportfolio.png": "/static/media/myportfolio.d94825fb32097d16011b.png",
     "static/media/Cosmic Ways.png": "/static/media/Cosmic Ways.bead1983d24d78d3694b.png",
@@ -12,13 +12,13 @@
     "static/media/JobBoard.png": "/static/media/JobBoard.3a82f26129f6de123bf5.png",
     "static/media/leoscroll.png": "/static/media/leoscroll.580dab365068058c9db3.png",
     "static/media/new.jpg": "/static/media/new.8f0639db3adfb0426640.jpg",
-    "static/media/cv.pdf": "/static/media/cv.8d32a37a4a18f9e8e3b4.pdf",
+    "static/media/cv.pdf": "/static/media/cv.fd72554ae0b370a27298.pdf",
     "index.html": "/index.html",
     "main.753afeac.css.map": "/static/css/main.753afeac.css.map",
-    "main.2c3eb191.js.map": "/static/js/main.2c3eb191.js.map"
+    "main.f5682d23.js.map": "/static/js/main.f5682d23.js.map"
   },
   "entrypoints": [
     "static/css/main.753afeac.css",
-    "static/js/main.2c3eb191.js"
+    "static/js/main.f5682d23.js"
   ]
 }
